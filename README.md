@@ -21,5 +21,5 @@ Make the current design style guide (system) open source.
 - [x] Static version of the current style guide from a html dump of the confluence docs
 - [ ] Generate a site form the markdown version of the documents
 - [ ] Create a website to showcase the design system using the design system's patterns
-- [ ] Create a css/js frameworks based on the design system
+- [ ] Create a front-end framework based on the design system
 - [ ] Create starter packs that allows people to get up and running quickly
