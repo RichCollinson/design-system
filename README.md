@@ -2,6 +2,10 @@
 
 First step towards creating an open source design system based on the DCI's internal design style guide.
 
+See the live website at:
+
+[https://city-of-melbourne.github.io/design-system/](https://city-of-melbourne.github.io/design-system/)
+
 ## Goal
 
 Make the current design style guide (system) open source.
