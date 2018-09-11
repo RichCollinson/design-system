@@ -5,4 +5,4 @@ title: Principles
 
 # DCI Design Principles
 * * *
-![Branching](/assets/19471379/19472566.png )
+![Branching](https://city-of-melbourne.github.io/design-system/design-system/img/principles.png)
