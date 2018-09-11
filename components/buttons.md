@@ -4,7 +4,6 @@ title: Buttons
 ---
 # Buttons
 * * *
-> 
 
 ### Primary
 _primary call-to-action_
@@ -17,14 +16,11 @@ Title case
 ### Secondary 
 _Secondary call-to-action_
 >Used to confirm and progress to the next step.
-
-
 ![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary.png)
 
 ### Tertiary 
 _Tertiary call-to-action_
 >Used to go back a step or exit form.
-
 
 ![](https://city-of-melbourne.github.io/design-system/style/img/button-tertiary.png)
 
@@ -32,9 +28,7 @@ _Tertiary call-to-action_
 _Quaternary call-to-action_
 >Used for micro interaction within a current step. E.g. edit or open & edit.
 
-
 ![](https://city-of-melbourne.github.io/design-system/style/img/button-quarternary.png)
-
 
 ### Yes / No toggle 
 _Conditional button _
