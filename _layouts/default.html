@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- START NAV -->
-    <nav class="navbar">
+    <nav class="navbar is-fixed-top">
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item brand-text" href="#">
@@ -20,7 +20,7 @@
     </nav>
     <!-- END NAV -->
     <div class="container">
-        <div class="columns">
+        <div class="columns is-mobile">
             <div class="menucontainer column is-3">
                 <aside class="menu">
                   {% for section in site.data.sections %}
