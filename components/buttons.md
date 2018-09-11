@@ -13,10 +13,11 @@ _primary call-to-action_
 
 
 ### Secondary 
-_Secondary call-to-action_
->Used to confirm and progress to the next step.
 
-![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary.png)
+| _Secondary call-to-action_           ||   _Conditional button_ |
+| ![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary.png)|| ![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary-inactive.png) |
+
+>Used to confirm and progress to the next step.
 
 ### Tertiary 
 _Tertiary call-to-action_
@@ -39,8 +40,8 @@ _Conditional button _
 ![](https://city-of-melbourne.github.io/design-system/style/img/toggle.png)
 
 ### Inactive state 
-_Conditional button _
+
 >Inactive until a condition is met
 
-![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary-inactive.png)
+
 
