@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design System - CoM</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item brand-text" href="#">
+                  <img src="{{ "/assets/img/logo.svg" | prepend: site.github.url }}" alt="logo" width="200" height="auto">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <div class="container">
+        <div class="columns">
+            <div class="menucontainer column is-3">
+                <aside class="menu">
+                  {% for section in site.data.sections %}
+                  <p class="menu-label">{{ section.title }}</p>
+                  <ul class="menu-list">
+                  {% for sub in section.subsections  %}
+                    <ul class="menu-list">
+                      {% for page in site.pages%}
+                         {% assign suburl=  sub.link | append:'.html'%}
+                         {% if suburl == page.url %}
+                          <li><a href="{{page.url | prepend: site.github.url }}"> {{page.title}}</a></li>
+                        {%endif%}
+                      {% endfor %}
+                    </ul>
+                  {% endfor %}
+                  </ul>
+                  {% endfor %}
+                </aside>
+            </div>
+          
+            <div class="contentcontainer column is-9">{{content}}</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+

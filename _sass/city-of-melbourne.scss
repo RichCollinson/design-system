@@ -1,0 +1,123 @@
+@import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css');
+
+
+html, body {
+  
+    font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
+    font-size: 12px;
+    background: #f4f6f9;
+    color: #23242b;
+    line-height: 1.5;
+    overflow: visible;
+    height: 100%;
+ 
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #244566;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+.ms-rtestate-field h2 {
+    font-size: 20px;
+    color: #23242b;
+    margin: 30px 0 25px 0; /*CR#45 margin-bottom 20------>25px*/
+    font-weight: normal;
+}
+
+h3,
+.ms-rtestate-field h3 {
+    font-size: 16px;
+    color: #23242b;
+    margin: 24px 0 16px 0; /*CR#45 margin:20px 0 10px 0 ------> 20px 0*/
+    font-weight: normal;
+}
+
+h4,
+.ms-rtestate-field h4 {
+    font-size: 14px;
+    color: #23242b;
+    margin: 20px 0; /*CR#45 margin:10px 0 ------> 20px 0*/
+    font-weight: normal;
+}
+h5{
+  
+}
+h6{
+  
+  
+}
+
+nav.navbar { 
+ 
+  border-bottom: 5px solid #FFFFFF;
+  background: #23242b;
+  height:57px;
+}
+.navbar-item.brand-text {
+  font-weight: 300;
+}
+.navbar-item, .navbar-link {
+  font-size: 14px;
+  font-weight: 700;
+}
+.columns {
+  width: 100%;
+  height: 100%;
+}
+
+.contentcontainer{
+  background-color: #ffffff;
+  
+}
+
+.menucontainer{
+  background-color: #f2f3f4;
+  
+}
+.menu {
+	background-color: #dbdfe8;
+    border: solid 1px #c9c9cc;
+	overflow-y: auto;
+}
+.menu-label {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;  
+  letter-spacing: normal;
+  color: #000000;
+  background:#c0c5d2;
+  font-weight: 500;
+  height: 38px;
+}
+.menu-list a {
+  
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;  
+  letter-spacing: normal;
+  color:#000000 ;color:#000000 ;
+}
+.menu-list a:hover {
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; 
+  text-decoration: underline;
+  letter-spacing: normal;
+  color:#000000 ;  
+}
+.menu-list a.is-active {
+  background-color: transparent;
+  color: #276cda;
+  font-weight: 700;
+}

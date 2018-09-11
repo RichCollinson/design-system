@@ -1,0 +1,28 @@
+- title: DCI DESIGN SYSTEM
+  subsections:
+    - link: /design-system/about
+    - link: /design-system/philosophy
+    - link: /design-system/principles
+- title: Style
+  subsections:
+    - link: /style/typography
+    - link: /style/colours
+    - link: /style/grid-and-layouts
+- title: Components
+  subsections:
+    - link: /components/input-fields
+    - link: /components/buttons
+    - link: /components/text-links
+- title: Patterns
+  subsections:
+    - link: /patterns/location-map
+    - link: /patterns/location-map-spatial-data-weave-api
+    - link: /patterns/address-validation-google-api
+    - link: /patterns/address-validation-sensis-api
+    - link: /patterns/address validation-weave-api
+    - link: /patterns/multiple-choice-question
+    - link: /patterns/attaching-photos-and-files
+    - link: /patterns/loading-and-processing-indicators
+    - link: /patterns/images-identifying-a-vehicle
+    - link: /patterns/choosing-a-waste-or-bin-type
+    - link: /patterns/confirm-send
