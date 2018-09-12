@@ -8,7 +8,8 @@ title: Grids & Layouts
 This is introduction text, if needed
 
 
-## This is a section title (if needed to seperate types of content)
+## This is a title for seperating different types of content. Incldues an underlie below
+---
 
 ### This is a display title
 This is explanaition text for the displayed object. If needed. Below if how an image can be displayed.
