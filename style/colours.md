@@ -7,13 +7,13 @@ title: Colours
 
 ## Primary/ accent colours
 
-![Image of black, red, and blue](https://github.com/City-of-Melbourne/design-system/blob/master/assets/img/colours_primary.png)
+![Image of black, red, and blue](img/colours_primary.png)
 
 ## Background colours
 
-![Image of black, red, and blue](https://github.com/City-of-Melbourne/design-system/blob/master/assets/img/colours_background.png)
+![Image of black, red, and blue](img/colours_background.png)
 
 ## Greyscale colours
 
-![Image of black, red, and blue](https://github.com/City-of-Melbourne/design-system/blob/master/assets/img/colours_greys.png)
+![Image of black, red, and blue](img/colours_greys.png)
 
