@@ -37,6 +37,10 @@ _Conditional button _
 >On selecting 'yes' the green 'Got it' state is displayed. This can trigger other screen elements (eg. activating secondary button)
 >On selecting 'Not sure' user is shown a new page and content.
 
+Enables user to confirm understanding a question or statement. 
+On selecting 'yes' the green 'Got it' state is displayed. This can trigger other screen elements (eg. activating secondary button)
+On selecting 'Not sure' user is shown a new page and content.
+
 ![](img/toggle.png)
 
 ### Inactive state 
