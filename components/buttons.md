@@ -14,7 +14,7 @@ _primary call-to-action_
 
 ### Secondary 
 
-| _Secondary call-to-action_           ||   _Conditional button_ |
+| _Secondary call-to-action_ || _Conditional button_ |
 | ![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary.png)|| ![](https://city-of-melbourne.github.io/design-system/style/img/button-secondary-inactive.png) |
 
 >Used to confirm and progress to the next step.

@@ -20,8 +20,9 @@
     </nav>
     <!-- END NAV -->
     <div class="container">
-        <div class="columns is-mobile">
-            <div class="menucontainer column is-3">
+      
+    
+         
                 <aside class="menu">
                   {% for section in site.data.sections %}
                   <p class="menu-label">{{ section.title }}</p>
@@ -39,10 +40,10 @@
                   </ul>
                   {% endfor %}
                 </aside>
-            </div>
           
-            <div class="contentcontainer column is-9">{{content}}</div>
-        </div>
+          <div class="contentcontainer" >{{content}}</div>  
+       
+     
     </div>
 </body>
 </html>
