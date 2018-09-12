@@ -15,7 +15,7 @@ This is the page intro style. Just your standard body text.
 ### This is a display title
 This is explanaition text for the displayed object. If needed. Below if how an image can be displayed.
 
-| ![](img/button-secondary.png)|| ![](img/button-secondary-inactive.png) |
+| ![](components/img/button-primary.png)|| ![](components/img/button-secondary.png) |
 
 ### This is a display title
 Below is a table to display content side-by-side.
