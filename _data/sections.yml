@@ -1,8 +1,8 @@
 - title: DCI DESIGN SYSTEM
   subsections:
-    - link: /design-system/about
-    - link: /design-system/philosophy
+    - link: /design-system/introduction
     - link: /design-system/principles
+    - link: /design-system/design-debt
 - title: Style
   subsections:
     - link: /style/typography
