@@ -1,17 +1,31 @@
 @import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css');
-
-$topnavbar-height: 50px;
-
-$color-dark:#23242b;
-$color-white:#ffffff;
+//VARIABLES
+$topnavbar-height: 50px;//WHITES
+$color-white:#FFFFFF;
+//PRIMARY
+$color-primary-blue:#277BB4;
+$color-primary-green:#008850;
+$color-primary-red:#E50E56;
+//SECONDARY
+$color-secondary-blue:#244566;
+//GRAYS
+$color-light-gray:#F2f3f4;
+$color-silver-gray: #D4d6db;
+$color-gray:#989eab;
+$color-medium-gray:#5d616c;
+$color-dark-gray:#3C404B;
+//BLACKS
+$color-vanta-black:#000000;
+$color-super-black:#080809;
+$color-carbon-black:#23242b;
 
 
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
-    font-size: 12px;
-    background: #f4f6f9;
-    color: $color-dark;
+    font-size: 14px;
+    background-color: $color-light-gray;
+    color: $color-carbon-black;
     line-height: 1.5;
     overflow-y: hidden;
 }
@@ -19,7 +33,7 @@ html, body {
 h1 {
     font-size: 30px;
     font-weight: normal;
-    color: #244566;
+    color: $color-secondary-blue;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +41,7 @@ h1 {
 h2,
 .ms-rtestate-field h2 {
     font-size: 20px;
-    color: $color-dark;
+    color: $color-carbon-black;
     margin: 30px 0 25px 0;
     font-weight: normal;
 }
@@ -35,7 +49,7 @@ h2,
 h3,
 .ms-rtestate-field h3 {
     font-size: 16px;
-    color: $color-dark;
+    color: $color-carbon-black;
     margin: 24px 0 16px 0;
     font-weight: normal;
 }
@@ -43,7 +57,7 @@ h3,
 h4,
 .ms-rtestate-field h4 {
     font-size: 14px;
-    color: $color-dark;
+    color: $color-carbon-black;
     margin: 20px 0;
     font-weight: normal;
 }
@@ -52,7 +66,7 @@ h4,
 //h6 { }
 
 nav.navbar {
-  background: $color-dark;
+  background-color: $color-carbon-black;
   height: $topnavbar-height;
 }
 
@@ -77,18 +91,18 @@ nav.navbar {
 }
 
 .main-container {
-  background-color: #ffffff;
+  background-color: $color-white;
   padding: 30px;
 }
 
 .menu {
-	background-color: #dbdfe8;
+	background-color: $color-silver-gray;
 }
 
 .menu-section {
   font-size: 14px; 
-  color: #000000;
-  background:#c0c5d2;
+  color: $color-vanta-black;
+  background: $color-gray;
   font-weight: 500;
   padding: 0.7em;
 }
@@ -102,11 +116,11 @@ nav.navbar {
   font-size: 14px; 
   padding: 0.7em 1.4em; 
   display: block;
-  color:#000000 ;  
+  color:$color-vanta-black ;  
 }
 
 .menu-item a.is-active {
-  background-color: #277BB4; 
+  background-color: $color-primary-blue; 
   color:$color-white;  
 }
 
@@ -117,6 +131,6 @@ nav.navbar {
 .menu-item a:hover {
   background-color: $color-white; 
   text-decoration: underline; 
-  color:$color-dark ;
+  color:$color-carbon-black ;
 }
 
