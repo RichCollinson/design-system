@@ -3,6 +3,7 @@ layout: default
 title: Colours
 ---
 # Basic colours
+---
 
 ## Primary/ accent colours
 
