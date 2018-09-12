@@ -12,6 +12,7 @@
     - link: /components/input-fields
     - link: /components/buttons
     - link: /components/text-links
+    - link: /components/global-elements
 - title: Patterns
   subsections:
     - link: /patterns/location-map
