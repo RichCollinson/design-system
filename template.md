@@ -9,10 +9,15 @@ Welcome to the template page. I've laid out commonly used components so you can 
 This is the page intro style. Just your standard body text.
 
 
-## This is a title for seperating different types of content. Incldues an underlie below
+## This is a title for seperating different types of content. Includes an underline below
 ---
 
 ### This is a display title
 This is explanaition text for the displayed object. If needed. Below if how an image can be displayed.
 
-![Image of black, red, and blue](img/colours_primary.png)
+| ![](img/button-secondary.png)|| ![](img/button-secondary-inactive.png) |
+
+### This is a display title
+Below is a table to display content side-by-side.
+
+|![Image of black, red, and blue](img/colours_primary.png)||![Image of black, red, and blue](img/colours_primary.png)|
