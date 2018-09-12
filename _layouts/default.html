@@ -19,36 +19,33 @@
         </div>
     </nav>
     <!-- END NAV -->
-    <div class="container">
-      
-    
-         
-                <aside class="menu">
-                  {% for section in site.data.sections %}
-                  <p class="menu-label">{{ section.title }}</p>
+    <div class="container" style="height:100vh;">
+      <div class="columns is-gapless content-columns">
+        <aside class="column is-3 menu">
+          <div class="menu-container">
+              {% for section in site.data.sections %}
+                <p class="menu-label">{{ section.title }}</p>
+                <ul class="menu-list">
+                {% for sub in section.subsections %}
                   <ul class="menu-list">
-                  {% for sub in section.subsections  %}
-                    <ul class="menu-list">
-                      {% for page in site.pages%}
-                         {% assign suburl=  sub.link | append:'.html'%}
-                         {% if suburl == page.url %}
-                          <li><a href="{{page.url | prepend: site.github.url }}"> {{page.title}}</a></li>
-                        {%endif%}
-                      {% endfor %}
-                    </ul>
-                  {% endfor %}
+                    {% for page in site.pages %}
+                       {% assign suburl = sub.link | append: '.html' %}
+                       {% if suburl == page.url %}
+                        <li><a href="{{page.url | prepend: site.github.url }}"> {{page.title}}</a></li>
+                      {% endif %}
+                    {% endfor %}
                   </ul>
-                  {% endfor %}
-                </aside>
-          
-          <div class="contentcontainer" >{{content}}</div>  
-       
-     
+                {% endfor %}
+                </ul>
+              {% endfor %}
+          </div>
+        </aside>
+        <main class="column is-9 ">
+          <div class="main-container">
+            {{content}}
+          </div>
+        </main>
+      </div>
     </div>
 </body>
 </html>
-
-
-
-
-
