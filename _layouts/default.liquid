@@ -28,10 +28,10 @@
                 <ul class="menu-list">
                 {% for sub in section.subsections %}
                   <ul class="menu-list">
-                    {% for page in site.pages %}
+                    {% for p in site.pages %}
                        {% assign suburl = sub.link | append: '.html' %}
-                       {% if suburl == page.url %}
-                        <li><a href="{{page.url | prepend: site.github.url }}"> {{page.title}}</a></li>
+                       {% if suburl == p.url %}
+                        <li><a class="{% if page.url contains suburl %}is-active{% endif %}" href="{{p.url | prepend: site.github.url }}"> {{p.title}}</a></li>
                       {% endif %}
                     {% endfor %}
                   </ul>

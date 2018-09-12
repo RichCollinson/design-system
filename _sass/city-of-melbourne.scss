@@ -102,6 +102,7 @@ nav.navbar {
   color:#000000 ;color:#000000 ;
 }
 
+.menu-list a.is-active:hover,
 .menu-list a:hover {
   background-color: #FFFFFF;
   font-size: 14px;
@@ -114,7 +115,5 @@ nav.navbar {
 }
 
 .menu-list a.is-active {
-  background-color: transparent;
-  color: #276cda;
-  font-weight: 700;
+  background-color: #277BB4;  
 }
