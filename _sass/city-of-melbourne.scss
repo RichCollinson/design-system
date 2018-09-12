@@ -1,24 +1,32 @@
 @import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css');
+
 //VARIABLES
 $topnavbar-height: 50px;//WHITES
-$color-white:#FFFFFF;
+
+//COLORS
+
+$color-white: #FFFFFF;
+
 //PRIMARY
-$color-primary-blue:#277BB4;
-$color-primary-green:#008850;
-$color-primary-red:#E50E56;
+$color-primary-blue: #277BB4;
+$color-primary-green: #008850;
+$color-primary-red: #E50E56;
+
 //SECONDARY
-$color-secondary-blue:#244566;
+$color-secondary-blue: #244566;
+
 //GRAYS
-$color-light-gray:#F2f3f4;
-$color-silver-gray: #D4d6db;
-$color-gray:#989eab;
-$color-medium-gray:#5d616c;
-$color-dark-gray:#3C404B;
+$color-light-gray: #F2F3F4;
+$color-silver-gray: #D4D6DB;
+$color-gray: #989EAB;
+$color-medium-gray: #5D616C;
+$color-dark-gray: #3C404B;
+
 //BLACKS
-$color-vanta-black:#000000;
-$color-super-black:#080809;
-$color-carbon-black:#23242b;
+$color-vanta-black: #000000;
+$color-super-black: #080809;
+$color-carbon-black: #23242B;
 
 
 html, body {
@@ -100,37 +108,37 @@ nav.navbar {
 }
 
 .menu-section {
-  font-size: 14px; 
+  font-size: 14px;
   color: $color-vanta-black;
   background: $color-gray;
   font-weight: 500;
   padding: 0.7em;
 }
 
-.menu-item,   
+.menu-item,
 .menu-item a {
   width: 100%;
 }
 
-.menu-item a {  
-  font-size: 14px; 
-  padding: 0.7em 1.4em; 
+.menu-item a {
+  font-size: 14px;
+  padding: 0.7em 1.4em;
   display: block;
-  color:$color-vanta-black ;  
+  color: $color-vanta-black;
 }
 
 .menu-item a.is-active {
-  background-color: $color-primary-blue; 
-  color:$color-white;  
+  background-color: $color-primary-blue;
+  color: $color-white;
 }
 
 .menu-item a.is-active::before {
-  content: ">";   
+  content: ">";
 }
 
 .menu-item a:hover {
-  background-color: $color-white; 
-  text-decoration: underline; 
-  color:$color-carbon-black ;
+  background-color: $color-white;
+  text-decoration: underline;
+  color: $color-carbon-black ;
 }
 
