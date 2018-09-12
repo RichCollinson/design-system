@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Index
+---
 # Introduction to DCI Design System
 ---
 
