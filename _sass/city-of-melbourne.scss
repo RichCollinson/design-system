@@ -3,11 +3,15 @@
 
 $topnavbar-height: 50px;
 
+$color-dark:#23242b;
+$color-white:#ffffff;
+
+
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
     font-size: 12px;
     background: #f4f6f9;
-    color: #23242b;
+    color: $color-dark;
     line-height: 1.5;
     overflow-y: hidden;
 }
@@ -23,7 +27,7 @@ h1 {
 h2,
 .ms-rtestate-field h2 {
     font-size: 20px;
-    color: #23242b;
+    color: $color-dark;
     margin: 30px 0 25px 0;
     font-weight: normal;
 }
@@ -31,7 +35,7 @@ h2,
 h3,
 .ms-rtestate-field h3 {
     font-size: 16px;
-    color: #23242b;
+    color: $color-dark;
     margin: 24px 0 16px 0;
     font-weight: normal;
 }
@@ -39,7 +43,7 @@ h3,
 h4,
 .ms-rtestate-field h4 {
     font-size: 14px;
-    color: #23242b;
+    color: $color-dark;
     margin: 20px 0;
     font-weight: normal;
 }
@@ -48,7 +52,7 @@ h4,
 //h6 { }
 
 nav.navbar {
-  background: #23242b;
+  background: $color-dark;
   height: $topnavbar-height;
 }
 
@@ -81,39 +85,38 @@ nav.navbar {
 	background-color: #dbdfe8;
 }
 
-.menu-label {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
+.menu-section {
+  font-size: 14px; 
   color: #000000;
   background:#c0c5d2;
   font-weight: 500;
-  height: 38px;
+  padding: 0.7em;
 }
 
-.menu-list a {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  color:#000000 ;color:#000000 ;
+.menu-item,   
+.menu-item a {
+  width: 100%;
 }
 
-.menu-list a.is-active:hover,
-.menu-list a:hover {
-  background-color: #FFFFFF;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-decoration: underline;
-  letter-spacing: normal;
-  color:#000000 ;
+.menu-item a {  
+  font-size: 14px; 
+  padding: 0.7em 1.4em; 
+  display: block;
+  color:#000000 ;  
 }
 
-.menu-list a.is-active {
-  background-color: #277BB4;  
+.menu-item a.is-active {
+  background-color: #277BB4; 
+  color:$color-white;  
 }
+
+.menu-item a.is-active::before {
+  content: ">";   
+}
+
+.menu-item a:hover {
+  background-color: $color-white; 
+  text-decoration: underline; 
+  color:$color-dark ;
+}
+
