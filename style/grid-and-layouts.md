@@ -13,4 +13,4 @@ This is introduction text, if needed
 ### This is a display title
 This is explanaition text for the displayed object. If needed. Below if how an image can be displayed.
 
-![Image of black, red, and blue](https://github.com/City-of-Melbourne/design-system/blob/master/assets/img/colours_primary.png)
+![Image of black, red, and blue](img/colours_primary.png)
