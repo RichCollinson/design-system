@@ -6,42 +6,36 @@ title: Buttons
 * * *
 
 ### Primary
-_primary call-to-action_
-Used to differentiate the confirmation and sending of data.
+primary call-to-action. Used to differentiate the confirmation and sending of data. Title case. 
 
 ![](img/button-primary.png)
 
 
 ### Secondary 
+Secondary call-to-action. Used to confirm and progress to the next step. Title case
 
-| _Secondary call-to-action_ || _Conditional button_ |
 | ![](img/button-secondary.png)|| ![](img/button-secondary-inactive.png) |
 
->Used to confirm and progress to the next step.
 
 ### Tertiary 
-_Tertiary call-to-action_
-Used to go back a step or exit form.
+
+Tertiary call-to-action. Used to go back a step or exit form. Title case
 
 ![](img/button-tertiary.png)
 
 ### Quarternary 
-_Quaternary call-to-action_
-Used for micro interaction within a current step. E.g. edit or open & edit.
+Quaternary call-to-action. Used for micro interaction within a current step. E.g. edit or open & edit. Title case
 
 ![](img/button-quarternary.png)
 
 ### Yes / No toggle 
-_Conditional button _
-Enables user to confirm understanding a question or statement. 
-On selecting 'yes' the green 'Got it' state is displayed. This can trigger other screen elements (eg. activating secondary button)
-On selecting 'Not sure' user is shown a new page and content.
+Conditional button. Enables user to confirm understanding a question or statement. 
+On selecting 'yes' the green 'Got it' state is displayed. This can trigger other screen elements (eg. activating secondary button.
+
+Design debt on colouring
 
 ![](img/toggle.png)
 
-### Inactive state 
-
-Inactive until a condition is met
 
 
 
