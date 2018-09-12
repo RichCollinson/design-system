@@ -5,15 +5,15 @@ title: Colours
 # Basic colours
 ---
 
-## Primary/ accent colours
+### Primary/ accent colours
 
 ![Image of black, red, and blue](img/colours_primary.png)
 
-## Background colours
+### Background colours
 
 ![Image of black, red, and blue](img/colours_background.png)
 
-## Greyscale colours
+### Greyscale colours
 
 ![Image of black, red, and blue](img/colours_greys.png)
 
