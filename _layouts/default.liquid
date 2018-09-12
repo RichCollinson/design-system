@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design System - CoM</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+    <!-- START NAV -->
+    <nav class="navbar is-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item brand-text" href="#">
+                  <img src="{{ "/assets/img/logo.svg" | prepend: site.github.url }}" alt="logo" width="200" height="auto">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <div class="container" style="height:100vh;">
+      <div class="columns is-gapless content-columns">
+        <aside class="column is-3 menu">
+          <div class="menu-container">
+              {% for section in site.data.sections %}
+                <p class="menu-label">{{ section.title }}</p>
+                <ul class="menu-list">
+                {% for sub in section.subsections %}
+                  <ul class="menu-list">
+                    {% for p in site.pages %}
+                       {% assign suburl = sub.link | append: '.html' %}
+                       {% if suburl == p.url %}
+                        <li><a class="{% if page.url contains suburl %}is-active{% endif %}" href="{{p.url | prepend: site.github.url }}"> {{p.title}}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endfor %}
+                </ul>
+              {% endfor %}
+          </div>
+        </aside>
+        <main class="column is-9 ">
+          <div class="main-container">
+            {{content}}
+          </div>
+        </main>
+      </div>
+    </div>
+</body>
+</html>
