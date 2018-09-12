@@ -9,6 +9,7 @@ title: Buttons
 _primary call-to-action_
 >Used to differentiate the confirmation and sending of data.
 >
+
 ![](img/button-primary.png)
 
 
