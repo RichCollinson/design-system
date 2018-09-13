@@ -1,6 +1,6 @@
 ---
 layout: default
-title: design debt
+title: Design debt
 ---
 # Design debt
 ---
