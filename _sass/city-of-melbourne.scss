@@ -146,3 +146,9 @@ nav.navbar {
   color: $color-carbon-black ;
 }
 
+.markdown {
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}
