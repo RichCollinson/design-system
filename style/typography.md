@@ -3,7 +3,7 @@ layout: default
 title: Typography
 ---
 # Typography
-* * *
+
 **What we're currently using, how's it's used and a reference for future.&nbsp;**
 
 Columns 1 and 2 show where we are and current usage/application of typographic styles.

@@ -3,7 +3,7 @@ layout: default
 title: Input Fields
 ---
 # Input Fields
-* * *
+
 Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | __Mobile__ - Input displays at width: 300x, height: 38px;
 ## Single line text field - generic text capture
 ### What it does 

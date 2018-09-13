@@ -3,7 +3,6 @@ layout: default
 title: Buttons
 ---
 # Buttons
-* * *
 
 ### Primary
 primary call-to-action. Used to differentiate the confirmation and sending of data. Title case. 
