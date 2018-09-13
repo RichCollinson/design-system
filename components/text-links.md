@@ -2,13 +2,32 @@
 layout: default
 title: Text Links
 ---
-# H1
+# Text Links
 * * *
-> Introduction text body style lorem ipsum dolor libero at pharetra. Vestibulum vitae neque orci. Suspendisse lorem nisl, tempus eu ornare eget, eleifend vitae dui. 
+### Standard
+Opens new CoM page in same browser window or frame
 
-## H2
-* * *
-### H3
->Body text. primary call-to-action. Used to differentiate the confirmation and sending of data. 
+![](img/text_link_1.png)
 
-### H3
+### New Window
+Displays the arrow icon when included in textlink mark up in Wordpress  
+
+|![](img/text_link_2.png)|| |
+
+#### HTML Snippet
+```
+<a href="URL" target="_blank">TEXT
+<span class="sr-only">
+  Opens in a new window
+</span>
+<i class="fa fa-external-link">
+</i>
+</a>
+```
+  
+### ?
+
+
+![](img/text_link_3.png)
+
+

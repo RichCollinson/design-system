@@ -2,29 +2,21 @@
 layout: default
 title: Input Fields
 ---
-# H1
+# Input Fields
 * * *
-> Introduction text body style lorem ipsum dolor libero at pharetra. Vestibulum vitae neque orci. Suspendisse lorem nisl, tempus eu ornare eget, eleifend vitae dui. 
+## Single line text field - generic text capture
+Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | __Mobile__ - Input displays at width: 300x, height: 38px;
 
-## H2
-* * *
-### H3
->Body text. primary call-to-action. Used to differentiate the confirmation and sending of data. 
+| __Input field__ | __Error__   |
+| ------------- |:-------------:|
+|![](img/single_line_text_field.png)     | ![](img/single_line_text_field_error.png) | 
 
-![](https://city-of-melbourne.github.io/design-system/design-system/img/principles.png)
+### What it does 
+- Captures mobile phone numbers, formatted to standard AU mobile numbers
+- Displays error text upon validation rules not met when mandatory and marked as (required)
+### Validation rules: 
+- Must start with 04
+- Must be numeric
+- Must contain 10 digits
+ 
 
-
-### Secondary button
->A call-to action style used to confirm and progress to the next step. Title case 
-
-![](https://city-of-melbourne.github.io/design-system/design-system/img/principles.png)
-
-### Tertiary button
->A call-to action style used to confirm and progress to the next step. Title case
-
-![](https://city-of-melbourne.github.io/design-system/design-system/img/principles.png)
-
-### Quarternary button
->A call-to action style used to confirm and progress to the next step. Title case
-
-![](https://city-of-melbourne.github.io/design-system/design-system/img/principles.png)

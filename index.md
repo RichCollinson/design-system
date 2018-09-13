@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wilkomen!
+title: DCI Design System!
 ---
 # Introduction to DCI Design System
 ***
