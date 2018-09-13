@@ -1,6 +1,5 @@
 ---
 layout: default
-section: Patterns
 title: Location map
 ---
 # Location Map
