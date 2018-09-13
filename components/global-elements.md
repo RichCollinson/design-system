@@ -15,7 +15,7 @@ This is the page intro style. Just your standard body text.
 ### Header - desktop
 At 768px and greater height increases, logo updates to larger format. Logo links to http://www.melbourne.vic.gov.au
 
-![](components/img/header_desktop.png)
+![](img/header_desktop.png)
 
 ```
 height:145.938px
