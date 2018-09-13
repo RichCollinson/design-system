@@ -6,7 +6,7 @@ title: Confirm and send
 
 ## What is it?
 
-*Replays location information to confirm and an opportunity to opt in for notifications.* 
+**Replays location information to confirm and an opportunity to opt in for notifications.** 
 
 Also;
 
@@ -15,7 +15,7 @@ Also;
 
 ## How does this template work?
 
-*This step consists of different data capture modules - opt in for notifications, contact details.* 
+**This step consists of different data capture modules - opt in for notifications, contact details.** 
 
 The current version of this step is below, and marked as current prod version.
 | Text || text|| text || text |
