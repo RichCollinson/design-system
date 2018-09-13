@@ -19,7 +19,7 @@ Also;
 
 The current version of this step is below, and marked as current prod version.
 |Text||text||text||text|
-|![](components/img/Confirm_and_send_current_Sept_18.png)||![](components/img/Contact_details_module.png)||![](components/img/Opt_in_details_module.png)||nada|
+|![](/img/Confirm_and_send_current_Sept_18.png)||![](/img/Contact_details_module.png)||![](/img/Opt_in_details_module.png)||nada|
 
 ### This is a display title
 Below is a table to display content side-by-side.
