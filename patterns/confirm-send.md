@@ -18,8 +18,8 @@ Also;
 *This step consists of different data capture modules - opt in for notifications, contact details.* 
 
 The current version of this step is below, and marked as current prod version.
-|Text||text||text||text|
-|![](img/Confirm_and_send_current_Sept_18.png)||![](img/Contact_details_module.png)||![](img/Opt_in_details_module.png)||nada|
+| Text || text|| text || text |
+| ![](img/Confirm_and_send_current_Sept_18.png) || ![](img/Contact_details_module.png) || ![](img/Opt_in_details_module.png) || nada |
 
 ### This is a display title
 Below is a table to display content side-by-side.
