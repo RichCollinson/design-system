@@ -14,7 +14,7 @@ primary call-to-action. Used to differentiate the confirmation and sending of da
 ### Secondary 
 Secondary call-to-action. Used to confirm and progress to the next step. Title case
 
-| ![](img/button-secondary.png)|| ![](img/button-secondary-inactive.png) |
+![](img/button-secondary.png) ![](img/button-secondary-inactive.png) 
 
 
 ### Tertiary 
