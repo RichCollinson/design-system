@@ -30,11 +30,12 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 - Must be numeric
 - Must contain 10 digits
 ## Multi-line text field + description - generic text capture
-### Input
-![](img/multiline_text_field.png)  
 ### What it does 
 - Captures mobile phone numbers, formatted to standard AU mobile numbers
 - Displays error text upon validation rules not met when mandatory and marked as (required)
+### Input
+![](img/multiline_text_field.png)  
+### Error
 ## Dropdown list - selection capture
 ### What it does
 ### Input
