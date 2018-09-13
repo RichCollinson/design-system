@@ -9,9 +9,6 @@ Welcome to the template page. I've laid out commonly used components so you can 
 This is the page intro style. Just your standard body text.
 
 
-## Global elements
----
-
 ### Header - desktop >767px
 At 768px and greater height increases, logo updates to larger format. Logo links to http://www.melbourne.vic.gov.au
 
