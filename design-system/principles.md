@@ -4,11 +4,9 @@ title: Principles
 ---
 
 # DCI Design Principles
-* * *
 ![](img/principles.png)
 
 ## Co-design
-* * *
 ### 1.1 Design for customers, with customer
 
 >Consider the task that customers need to complete, and focus on streamlining the process. Business needs must be balanced with customer needs. Test with customers from the start.
@@ -19,7 +17,7 @@ title: Principles
 
 
 ## Do Less
-* * *
+
 ### 2.1 Make the experience seamless
 >Make the look and feel of digital services
 consistent, no matter which backend systems are
@@ -51,7 +49,7 @@ Syndicate common functionality rather than
 recreate it for each service.
 
 ## Make it easy
-* * *
+
 ### 3.1. Design for mobile first
 >Increasingly customers will be
 transacting on mobile devices. Designing
@@ -80,7 +78,6 @@ them focus on each segment of a service.
 Make sure each step has one clear action.
 
 ## Make it easy
-* * *
 
 ### 4.1. Be transparent
 >Customers are more comfortable providing
@@ -102,7 +99,6 @@ providers from parallel and other
 industries for inspiration.
 
 ## Aim to delight
-* * *
 
 ### 5.1 Write in a straightforward, friendly way
 >Write like a helpful concierge. Be clear
