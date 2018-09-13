@@ -26,9 +26,9 @@
               {% for section in site.data.sections %}
                 <p class="menu-section">{{ section.title }}</p>
                 <ul >
-                {% for sub in section.subsections %}                  
+                {% for sub in section.subsections %}
                     {% for p in site.pages %}
-                       {% assign suburl = sub.link | append: '.html' %}                        
+                       {% assign suburl = sub.link | append: '.html' %}
                        {% if suburl == p.url %}
                         <li class="menu-item" ><a  class="{% if page.url contains suburl %}is-active{% endif %}" href="{{p.url | prepend: site.github.url }}"> {{p.title}}</a></li>
                       {% endif %}
