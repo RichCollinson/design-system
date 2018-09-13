@@ -89,7 +89,7 @@ dci.wizard.css:100
 ### Page heading
 Titles the service. Titles the current screen with overall theme of intent.
 
-![](img/page_title.png)
+![](img/Page_title.png)
 
 ```
 Service title
