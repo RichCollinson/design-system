@@ -25,4 +25,6 @@
     - link: /patterns/images-identifying-a-vehicle
     - link: /patterns/choosing-a-waste-or-bin-type
     - link: /patterns/confirm-send
-    # - link: /patterns/loading-and-progress-indicators
+    - link: /patterns/accordion-help
+
+    
