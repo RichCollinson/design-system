@@ -2,8 +2,6 @@
 layout: default
 title: Contact preference
 ---
-# Contact preference
-
 ## What is it?
 
 
