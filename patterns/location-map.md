@@ -3,16 +3,16 @@ layout: default
 title: Location map
 ---
 # Location Map
-***
+
 ## What is it?
-Presents the customer options top provide a location
+__Presents the customer options top provide a location__
 Used for capturing the location of any point of public space within the CoM boundary.
 Customer can choose between using a map or typing an address.
 Screen flows below show both options under 'how does it work?'
-## How does it work?
+
 ## Find on map
 
-### Provide a location using THE MAP
+### 1.Provide a location using THE MAP
 
 __Method of providing location or address__
 Customer is presented with option to provide a known address or location.
@@ -24,7 +24,7 @@ If the module is a step in the middle of a form flow, then 'Back' and 'Next' but
 
 
 
-### Full screen map - Move map location to pin
+### 2.Full screen map - Move map location to pin
 
 __The full screen map__
 On selecting 'Find on map' a full screen map is displayed, with a centered pin. 
@@ -46,7 +46,7 @@ Selecting 'Next' takes the user to step 3 __'Confirming the data provided'__
 ![](img/find_on_map_2.png)
 
 
-### Optionally add location detail
+### 3.Optionally add location detail
 
 __Confirming the data provided__
 This step serves as a check point to review the location they have provided and an opportunity to provide additional written information about the location. 
@@ -61,7 +61,7 @@ And the customer can click 'confirm' to continue through the form
 
 ## Type an address
 
-### Provide a location using THE ADDRESS MATCH 
+### 1.Provide a location using THE ADDRESS MATCH 
 
 __Method of providing location or address__
 Customer is presented with option to provide a known address or location.
@@ -69,27 +69,25 @@ __Buttons__
 If the screen is the first step in the form, then one button spanning the full width is used - as above.
 If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown. 
 
-### Matched addresses
+![](img/provide_location.png)
+
+### 2.Matched addresses
 
 __Address matching__
 Address input field on typing 5+ characters will attempt to match the typed address string
 
-### Selection made
+### 4.Selection made
 
 ## Where is it used?
 
-| Service        | URL (Please note these are DEV URLs)           | Used?  |
-| ------------- |-------------| -----|
-| Graffiti      | https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti | Yes  |
-| Tree Maintenance | https://dev01.dev.services.melbourne.vic.gov.au/report/treemaintenance | Yes - Private trees part of the flow only    |
-| Abandoned Vehicle | https://dev01.dev.services.melbourne.vic.gov.au/report/abandonedvehicle     | Yes     |
-| Illegally Parked Vehicle | https://dev01.dev.services.melbourne.vic.gov.au/report/illegallyparkedvehicle     |  Yes   |
-| Syringe Management | https://dev01.dev.services.melbourne.vic.gov.au/report/syringemanagement     | Yes    |
-| Illegally Dumped Rubbish | https://dev01.dev.services.melbourne.vic.gov.au/report/illegallydumpedrubbish      |  Yes   |
-| Rough Sleeping | https://dev01.dev.services.melbourne.vic.gov.au/tellus/online     | Yes    |
-| Parking Infringement Review | https://dev01.dev.services.melbourne.vic.gov.au/ask/infringementreview     |  No   |
-| Animal Infringement Review | https://dev01.dev.services.melbourne.vic.gov.au/ask/animals/infringementreview     | No   |
-| Local Law Infringement Review | https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringement     |  No   |
-| General Enquiry |  https://dev01.dev.services.melbourne.vic.gov.au/ask/question    |   No  |
-
-
+- __Graffiti__ [https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti](https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti)  __Yes__  
+- __Tree Maintenance__ [https://dev01.dev.services.melbourne.vic.gov.au/report/treemaintenance](https://dev01.dev.services.melbourne.vic.gov.au/report/treemaintenance)  __Yes(Private trees part of the flow only )__
+- __Abandoned Vehicle__ [https://dev01.dev.services.melbourne.vic.gov.au/report/abandonedvehicle ](https://dev01.dev.services.melbourne.vic.gov.au/report/abandonedvehicle )  __Yes__
+- __Illegally Parked Vehicle__ [https://dev01.dev.services.melbourne.vic.gov.au/report/illegallyparkedvehicle](https://dev01.dev.services.melbourne.vic.gov.au/report/illegallyparkedvehicle)  __Yes__
+- __Syringe Management__ [https://dev01.dev.services.melbourne.vic.gov.au/report/syringemanagement](https://dev01.dev.services.melbourne.vic.gov.au/report/syringemanagement)  __Yes__
+- __Illegally Dumped Rubbish__ [https://dev01.dev.services.melbourne.vic.gov.au/report/illegallydumpedrubbish](https://dev01.dev.services.melbourne.vic.gov.au/report/illegallydumpedrubbish)  __Yes__
+- __Rough Sleeping__ [https://dev01.dev.services.melbourne.vic.gov.au/tellus/online](https://dev01.dev.services.melbourne.vic.gov.au/tellus/online)  __Yes__
+- __Parking Infringement Review__ [https://dev01.dev.services.melbourne.vic.gov.au/ask/infringementreview](https://dev01.dev.services.melbourne.vic.gov.au/ask/infringementreview)  __No__
+- __Animal Infringement Review__ [https://dev01.dev.services.melbourne.vic.gov.au/ask/animals/infringementreview](https://dev01.dev.services.melbourne.vic.gov.au/ask/animals/infringementreview)  __No__
+- __Local Law Infringement Review__ [https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringement](https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringement)  __No__
+- __General Enquiry__ [https://dev01.dev.services.melbourne.vic.gov.au/ask/question](https://dev01.dev.services.melbourne.vic.gov.au/ask/question)  __No__
