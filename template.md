@@ -17,4 +17,4 @@ This is explanaition text for the displayed object. If needed. Below if how an i
 ### This is a display title
 Below is a table to display content side-by-side.
 
-| ![](components/img/button-primary.png)|| ![](components/img/button-secondary.png) |
+ ![](components/img/button-primary.png) ![](components/img/button-secondary.png) 
