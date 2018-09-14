@@ -2,7 +2,6 @@
 layout: default
 title: Design debt
 ---
-# Design debt
 
 There are some areas of some of the form designs whereby there are UI discrepencies. Design 'debt' term is used to describe these discrepancies.
 These do not impact the UX nor the service. However, from a consistency perspective they should at some point be addressed.

@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Location map
+title: Location Map
 ---
-# Location Map
 
 ## What is it?
 __Presents the customer options top provide a location__

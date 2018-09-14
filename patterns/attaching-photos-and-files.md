@@ -3,8 +3,6 @@ layout: default
 title: Attaching photos and files
 ---
 
-# Attaching photos and files 
-
 ### What is it?
 
 Buttons to open the attach file dialog window (device & OS dependent)

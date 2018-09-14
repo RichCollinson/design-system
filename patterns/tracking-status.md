@@ -3,8 +3,6 @@ layout: default
 title: Tracking Status
 ---
 
-# Tracking Status
-
 This content is redundant in current state, further work required to make this content meaningful to customer.
 
 ## Access from form

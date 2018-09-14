@@ -2,7 +2,6 @@
 layout: default
 title: Text Links
 ---
-# Text Links
 
 ### Standard
 Opens new CoM page in same browser window or frame

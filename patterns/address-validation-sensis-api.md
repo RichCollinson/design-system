@@ -2,7 +2,6 @@
 layout: default
 title: Address validation + Sensis API
 ---
-# Address validation + Sensis API
 
 ## What is it?
 Captures customers valid postal address.

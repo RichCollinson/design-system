@@ -2,7 +2,6 @@
 layout: default
 title: Confirm and send
 ---
-# Confirm and send 
 
 ## What is it?
 

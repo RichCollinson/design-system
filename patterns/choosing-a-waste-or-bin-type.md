@@ -2,7 +2,6 @@
 layout: default
 title: Choosing a waste or bin type
 ---
-# Choosing a waste or bin type
 
 ## What is it?
 Captures customers waste type, bin and size.

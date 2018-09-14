@@ -3,8 +3,6 @@ layout: default
 title: Loading and processing indicators
 ---
 
-# Loading and progress indicators
-
 TODO add description
 
 ## Sending a report

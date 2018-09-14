@@ -2,7 +2,6 @@
 layout: default
 title: Location map + Spatial data (Weave API)
 ---
-# Location map + Spatial data (Weave API) 
 
 ## What is it?
 __Presents the customer options top provide a location OR specific asset location__  
