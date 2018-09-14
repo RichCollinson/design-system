@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Accordion Help
+title: Loading and progress indicators
 ---
 
-# Accordion Help
+# Loading and progress indicators
 
 TODO: add description
 
