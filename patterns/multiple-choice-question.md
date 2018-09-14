@@ -41,7 +41,7 @@ The example above shows 'Back' and 'Next'.
 ![](img/multiple_choice_q_check_boxes.png)
  
  
- ### Validation error
+### Validation error
 If mandatory, then error message is triggered on validation when clicking 'Next'
 
 Error messages
