@@ -29,7 +29,7 @@ Content can be updated in wordpress
 ![](img/multiple_choice_q_radio_buttons_error.png)
 
 
-##Multiple answers selection - Check boxes
+## Multiple answers selection - Check boxes
 
 ### Multiple choice answer
 Screen consists of a label, serving as the question, followed by multiple check boxes as answers.
