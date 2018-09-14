@@ -9,10 +9,10 @@ __Presents the customer options top provide a location__
 Used for capturing the location of any point of public space within the CoM boundary.
 Customer can choose between using a map or typing an address.
 Screen flows below show both options under 'how does it work?'
-## How does it work?
+
 ## Find on map
 
-### Provide a location using THE MAP
+### 1.Provide a location using THE MAP
 
 __Method of providing location or address__
 Customer is presented with option to provide a known address or location.
@@ -24,7 +24,7 @@ If the module is a step in the middle of a form flow, then 'Back' and 'Next' but
 
 
 
-### Full screen map - Move map location to pin
+### 2.Full screen map - Move map location to pin
 
 __The full screen map__
 On selecting 'Find on map' a full screen map is displayed, with a centered pin. 
@@ -46,7 +46,7 @@ Selecting 'Next' takes the user to step 3 __'Confirming the data provided'__
 ![](img/find_on_map_2.png)
 
 
-### Optionally add location detail
+### 3.Optionally add location detail
 
 __Confirming the data provided__
 This step serves as a check point to review the location they have provided and an opportunity to provide additional written information about the location. 
@@ -61,7 +61,7 @@ And the customer can click 'confirm' to continue through the form
 
 ## Type an address
 
-### Provide a location using THE ADDRESS MATCH 
+### 1.Provide a location using THE ADDRESS MATCH 
 
 __Method of providing location or address__
 Customer is presented with option to provide a known address or location.
@@ -71,12 +71,12 @@ If the module is a step in the middle of a form flow, then 'Back' and 'Next' but
 
 ![](img/provide_location.png)
 
-### Matched addresses
+### 2.Matched addresses
 
 __Address matching__
 Address input field on typing 5+ characters will attempt to match the typed address string
 
-### Selection made
+### 4.Selection made
 
 ## Where is it used?
 
