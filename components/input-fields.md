@@ -4,6 +4,8 @@ title: Input Fields
 ---
 
 Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | __Mobile__ - Input displays at width: 300x, height: 38px;
+
+<p> <bold> cat </bold> </p>
 ## Single line text field - generic text capture
 ### What it does 
 - Captures mobile phone numbers, formatted to standard AU mobile numbers
