@@ -1,8 +1,7 @@
 ---
 layout: default
-title: DCI Design System!
+title: Introduction to DCI Design System
 ---
-# Introduction to DCI Design System
 
 Welcome to the DCI Design system. Right now, it’s less a design system, and more of a design library for the Digital Customer Interface.
 
