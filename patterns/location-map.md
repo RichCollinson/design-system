@@ -63,8 +63,11 @@ And the customer can click 'confirm' to continue through the form
 ### 1.Provide a location using THE ADDRESS MATCH 
 
 __Method of providing location or address__
+
 Customer is presented with option to provide a known address or location.
+
 __Buttons__
+
 If the screen is the first step in the form, then one button spanning the full width is used - as above.
 If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown. 
 
