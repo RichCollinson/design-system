@@ -2,7 +2,6 @@
 layout: default
 title: Typography
 ---
-# Typography
 
 **What we're currently using, how's it's used and a reference for future.**
 

@@ -3,8 +3,6 @@ layout: default
 title: Accordion help
 ---
 
-# Accordion help
-
 TODO: Add description
 
 ## On page loaded, closed

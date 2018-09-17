@@ -3,7 +3,6 @@ layout: default
 title: Principles
 ---
 
-# DCI Design Principles
 ![](img/principles.png)
 
 ## Co-design

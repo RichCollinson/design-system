@@ -2,7 +2,6 @@
 layout: default
 title: Address validation + Google API
 ---
-# Address validation + Google API 
 
 ## What is it?
 

@@ -3,8 +3,6 @@ layout: default
 title: Error handling
 ---
 
-# Error handling
-
 ## Generic form error
 
 We want to alert them to an issue, not alarm them. We should provide customers an alternative path to resolve their issue.

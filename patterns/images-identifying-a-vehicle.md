@@ -3,8 +3,6 @@ layout: default
 title: Images - Identifying a vehicle
 ---
 
-# Images - Identifying a vehicle 
-
 ## What is it?
 A multiple choice question using images for radio button selections. 
 For reporting illegally parked or abandoned vehicles it may help to show them images of vehicles alongside the labels for each type. 
