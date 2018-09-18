@@ -155,7 +155,7 @@ nav.navbar {
     font-weight: normal;
   }
 }
-
+// auto complete
   .autocomplete-suggestions {
     text-align: left; 
     cursor: default; 
@@ -190,10 +190,9 @@ nav.navbar {
 .search-results-container{ 
   
   ul {
-    list-style-type: disc;
-    list-style-position: inside;
+    list-style: none;
   }
-
+  
 }
 
 
