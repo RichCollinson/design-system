@@ -33,7 +33,6 @@ Make the current design style guide (system) open source.
 ## Tips for updating the website
 
 - It takes 3-10 seconds for the code to generate and update from markdown to the HTML site, so you’ll need some patience to see changes!
-- The H1 doesn’t come with the underline style, you need to add the line yourself to the markdown.
 - Make sure to keep the “layout” and “title” on every page.
 - Reference the internal img folder only in order to retrieve image files. Don’t put the entire location in there. E.g. /img/image.png is correct, and /design-system/components/img/image.png will not work.
 - Avoid tables at all costs. If you really, really have to, refer to use github’s markdown style for it, and you’ll probably have to get a dev to create a style for the website.
