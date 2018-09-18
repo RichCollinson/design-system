@@ -6,9 +6,7 @@ title: Input Fields
 Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | __Mobile__ - Input displays at width: 300x, height: 38px;
 
 ## Single line text field - generic text capture
-### What it does 
-- Captures mobile phone numbers, formatted to standard AU mobile numbers
-- Displays error text upon validation rules not met when mandatory and marked as (required)
+
 ### Input
 ![](img/single_line_text_field.png) 
 ### Error
