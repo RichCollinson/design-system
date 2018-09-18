@@ -6,6 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Design System - CoM</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  
+    <link rel="stylesheet" href="/assets/css/auto-complete.css">
+    <script src="/assets/js/auto-complete.js"></script>    
+    <script defer src="/assets/js/search.js"></script>
+    <script src="/assets/js/lunr.min.js"></script>
+
+    <script>
+        let PAGES = {
+         {% for post in site.pages %}
+            "{{ post.url | slugify }}": {
+              "title": "{{ post.title | xml_escape }}",
+              "author": "{{ post.author | xml_escape }}",
+              "category": "{{ post.category | xml_escape }}",
+              "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+              "url": "{{ post.url | xml_escape }}"
+            }
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}  
+      }   
+                                       
+      let idx = lunr(function () {
+                    this.field('id');
+                    this.field('title', { boost: 10 });
+                    this.field('author');
+                    this.field('category');
+                    this.field('content');
+                  });     
+       
+       for (var key in PAGES) { // Add the data to lunr
+                idx.add({
+                  'id': key,
+                  'title': PAGES[key].title,
+                  'author': PAGES[key].author,
+                  'category': PAGES[key].category,
+                  'content': PAGES[key].content
+                });
+       }                                       
+  </script> 
+
 </head>
 <body>
     <!-- START NAV -->
@@ -16,8 +55,18 @@
                   <img src="{{ "/assets/img/logo.svg" | prepend: site.github.url }}" alt="logo" width="200" height="auto">
                 </a>
             </div>
+             <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="field is-grouped">
+                  <p class="control">
+                      <input id="content-search" class="input" type="text" placeholder="Search">                      
+                  </p>                   
+                </div>
+              </div>
+            </div>
         </div>
     </nav>
+  
     <!-- END NAV -->
     <div class="container" style="height: calc(100vh - 50px);">
       <div class="columns is-gapless content-columns">
@@ -38,7 +87,7 @@
               {% endfor %}
           </div>
         </aside>
-        <main class="column is-9 ">
+        <main class="column is-9 ">          
           <div class="main-container markdown">
             <h1>{{page.title}}</h1>
             {{content}}
@@ -46,5 +95,32 @@
         </main>
       </div>
     </div>
-</body>
+    <script>     
+    
+    new autoComplete({
+      selector: '#content-search',
+      minChars: 2,
+      source: function(term, suggest) {        
+        term = term.toLowerCase();        
+        var results = idx.search(term);
+        if(results!=undefined)
+            suggest(getAutoCompleteSearchResults(results,PAGES)); 
+      },
+       renderItem: function (item, search){        
+        search = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        var re = new RegExp("(" + search.split(' ').join('|') + ")", "gi");
+        var dataUrl="/search.html?query="+search;         
+        return '<div class="autocomplete-suggestion" data-url="'+dataUrl+'">'+item.replace(re, "<b>$1</b>")+'</div>';
+         
+    },
+      onSelect: function(e, term, item){          
+       window.location.href = item.getAttribute('data-url');
+      }
+    });
+   
+ 
+                     
+                     
+  </script>
+  </body>
 </html>

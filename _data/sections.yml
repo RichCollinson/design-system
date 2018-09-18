@@ -1,7 +1,7 @@
 - title: DCI DESIGN SYSTEM
   subsections:        
     - link: /design-system/principles
-    - link: /design-system/design-debt
+    - link: /design-system/design-debt    
 - title: Style
   subsections:
     - link: /style/typography
