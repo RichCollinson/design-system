@@ -14,8 +14,11 @@ Screen flows below show both options under 'how does it work?'
 ### 1.Provide a location using THE MAP
 
 __Method of providing location or address__
+
 Customer is presented with option to provide a known address or location.
+
 __Buttons__
+
 If the screen is the first step in the form, then one button spanning the full width is used - as above.
 If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown.
 
@@ -26,15 +29,18 @@ If the module is a step in the middle of a form flow, then 'Back' and 'Next' but
 ### 2.Full screen map - Move map location to pin
 
 __The full screen map__
+
 On selecting 'Find on map' a full screen map is displayed, with a centered pin. 
 
 On interaction the the map is movable, the pin remains static. 
 
 __Location services__
+
 If location services ON (example above)
 'Go to current location' button IS displayed above the 'Back' and 'Confirm' buttons. 
 
 __If location services are OFF__ 
+
 'Go to current location' button IS NOT displayed above the 'Back' and 'Next' buttons. 
 The map location defaults to the town hall.
 
